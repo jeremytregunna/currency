@@ -23,7 +23,7 @@ defmodule Currency.MixProject do
     [
       {:decimal, "~> 1.8"},
       {:jason, "~> 1.1.2"},
-      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
+      {:ex_doc, "~> 0.21.1", only: :dev, runtime: false}
     ]
   end
 
