@@ -23,8 +23,6 @@ defmodule Currency.MixProject do
     [
       {:decimal, "~> 1.8"},
       {:jason, "~> 1.1.2"},
-      {:httpoison, "~> 1.5.1"},
-      {:stream_data, ">= 0.0.1"}
     ]
   end
 
